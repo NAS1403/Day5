@@ -7,7 +7,7 @@ public class VowelConsonant {
         Scanner scr = new Scanner(System.in);
         System.out.println("Enter the character:");
         char c = scr.next().charAt(0);
-        if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' )
+        if( c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
             System.out.println(c + " is vowel");
         else
             System.out.println(c + " is consonant");
